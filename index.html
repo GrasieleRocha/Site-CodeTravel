@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>CodeTravel</title>
+  </head>
+  <body>
+    <div class="menu-mobile">
+      <header id="top">
+        <nav id="box-top">
+          <h1>Code<span>Travel</span></h1>
+          <div class="box-btn-actions">
+            <ion-icon
+              onclick="toggleMenu.open()"
+              class="openMenu"
+              name="menu-outline"
+            ></ion-icon>
+            <ion-icon
+              onclick="toggleMenu.close()"
+              class="closeMenu menu-hiden"
+              name="close-outline"
+            ></ion-icon>
+          </div>
+        </nav>
+      </header>
+      <ul class="menu-navigation menu-hiden">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Sobre nós</a></li>
+        <li><a href="#destiny">Destinos</a></li>
+        <li><a href="#testimonials">Depoimentos</a></li>
+      </ul>
+    </div>
+
+    <div class="menu-desktop menu-hiden">
+      <header id="top">
+        <nav id="box-top">
+          <h1>Code<span>Travel</span></h1>
+          <ul class="menu-navigation">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Sobre nós</a></li>
+            <li><a href="#destiny">Destinos</a></li>
+            <li><a href="#testimonials">Depoimentos</a></li>
+            <li class="btn-active"><a href="#contact">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <section id="home">
+      <div class="box-home">
+        <h2>O site de viagem mais legal da web</h2>
+        <p>Aqui sua viagem se torna realidade.</p>
+        <button>Veja mais</button>
+      </div>
+    </section>
+
+    <h3 class="title-section">Sobre nós</h3>
+
+    <section id="about">
+      <div class="box-about">
+        <div class="box-text">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed
+            ducimus ipsam, commodi ab, illum laudantium animi explicabo eius
+            iure recusandae optio cumque magni unde, nobis odit hic consequatur
+            necessitatibus. Inventore?
+          </p>
+        </div>
+
+        <div class="box-imgage">
+          <div class="bg-color"></div>
+          <img
+            src="https://images.unsplash.com/photo-1539635278303-d4002c07eae3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHZpYWdlbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+            alt="imagem da seção sobre nós"
+          />
+        </div>
+      </div>
+    </section>
+
+    <h3 class="title-section">Destinos</h3>
+
+    <section id="destiny">
+      <div class="box-destiny">
+        <div class="card-destiny">
+          <img
+            src="https://images.unsplash.com/photo-1661518572691-f4044e3b9817?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGdvaWFuaWF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+          <div class="description">
+            <h3>goiânia</h3>
+            <h6>Município em Goiás</h6>
+            <p>
+              Goiânia é um município brasileiro, capital do estado de Goiás.
+              Dista 209 km de Brasília, a capital nacional. Com uma área de
+              aproximadamente 728,84 km², possui uma geografia contínua, com
+              poucos morros e baixadas, caracterizada por ser uma região do
+              Planalto Central do Brasil.
+            </p>
+            <button>Reservar</button>
+          </div>
+        </div>
+        <div class="card-destiny">
+          <img
+            src="https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmlvJTIwZGUlMjBqYW5laXJvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+          <div class="description">
+            <h3>Rio de Janeiro</h3>
+            <h6>Município no Rio de Janeiro</h6>
+            <p>
+              O Rio de Janeiro é uma grande cidade brasileira à beira-mar,
+              famosa pelas praias de Copacabana e Ipanema, pela estátua de 38
+              metros de altura do Cristo Redentor, no topo do Corcovado, e pelo
+              Pão de Açúcar, um pico de granito com teleféricos até seu cume. A
+              cidade também é conhecida pelas grandes favelas. O empolgante
+              Carnaval, com carros alegóricos, fantasias extravagantes e
+              sambistas, é considerado o maior do mundo.
+            </p>
+            <button>Reservar</button>
+          </div>
+        </div>
+        <div class="card-destiny">
+          <img
+            src="https://images.unsplash.com/photo-1543059080-f9b1272213d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8UyVDMyVBM28lMjBwYXVsbyUyMGNpZGFkZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+          <div class="description">
+            <h3>São Paulo</h3>
+            <h6>Município em São Paulo</h6>
+            <p>
+              São Paulo, centro financeiro do Brasil, está entre as cidades mais
+              populosas do mundo, com diversas instituições culturais e uma rica
+              tradição arquitetônica. Há prédios simbólicos como a catedral
+              neogótica, o Edifício Martinelli, um arranha-céu inaugurado em
+              1929, e o Edifício Copan, com suas linhas curvas projetadas pelo
+              arquiteto modernista Oscar Niemeyer. A igreja em estilo colonial
+              do Pátio do Colégio marca o local onde os padres jesuítas fundaram
+              a cidade em 1554.s
+            </p>
+            <button>Reservar</button>
+          </div>
+        </div>
+        <div class="card-destiny">
+          <img
+            src="https://images.unsplash.com/photo-1633107638683-de07246d7e8a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHJpbyUyMGdyYW5kZSUyMGRvJTIwc3VsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+          <div class="description">
+            <h3>Manhattan</h3>
+            <h6>Boroughs de Nova Iorque</h6>
+            <p>
+              Manhattan é o mais antigo e mais densamente povoado dos cinco
+              burgos que formam a cidade de Nova Iorque. Localizado
+              primariamente na Ilha de Manhattan, que fica na foz do Rio Hudson,
+              os limites do borough coincidem com os do condado de Nova Iorque,
+              um condado original do estado de Nova Iorque.
+            </p>
+            <button>Reservar</button>
+          </div>
+        </div>
+        <div class="card-destiny">
+          <img
+            src="https://images.unsplash.com/photo-1618259278412-2819cbdea4dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YWxlbWFuaGF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+          <div class="description">
+            <h3>Alemanha</h3>
+            <h6>País na Europa</h6>
+            <p>
+              A Alemanha é um país situado na Europa Ocidental com uma paisagem
+              de florestas, rios, cordilheiras e praias do Mar do Norte. A nação
+              tem mais de 2 milênios de história. Berlim, a capital, abriga
+              cenários artísticos e de vida noturna, o Portão de Brandemburgo e
+              muitos locais relacionados à Segunda Guerra Mundial. Munique é
+              conhecida pela Oktoberfest e pelos beer halls, entre eles o
+              Hofbräuhaus, do século XVI. Frankfurt, com seus arranha-céus,
+              abriga o Banco Central Europeu.
+            </p>
+            <button>Reservar</button>
+          </div>
+        </div>
+        <div class="card-destiny">
+          <img
+            src="https://images.unsplash.com/photo-1589909202802-8f4aadce1849?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXJnZW50aW5hfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+          <div class="description">
+            <h3>Buenos aires</h3>
+            <h6>Capital da Argentina</h6>
+            <p>
+              Buenos Aires é a capital cosmopolita da Argentina. Seu centro é a
+              Praça de Maio, com imponentes edifícios do século 19, como a Casa
+              Rosada, o emblemático palácio presidencial com sacadas. Outras
+              importantes atrações são o Teatro Colón, uma casa de ópera
+              inaugurada em 1908 com cerca de 2.500 lugares, e o moderno museu
+              MALBA, com sua coleção de arte latino-americana.
+            </p>
+            <button>Reservar</button>
+          </div>
+        </div>
+        <div class="card-destiny">
+          <img
+            src="https://images.unsplash.com/photo-1544009520-e2ea9189f15e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bm9ydWVnYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+          <div class="description">
+            <h3>Noruega</h3>
+            <h6>País na Europa</h6>
+            <p>
+              A Noruega é um país escandinavo que abrange montanhas, geleiras e
+              fiordes litorâneos profundos. Oslo, a capital, é uma cidade cheia
+              de áreas verdes e museus. Navios vikings preservados do século IX
+              são exibidos no Museu do Navio Viking de Oslo. Bergen, com suas
+              casas coloridas de madeira, é o ponto de partida de cruzeiros rumo
+              ao deslumbrante Fiorde de Sogn. O país também é famoso pela pesca,
+              pelas trilhas e pelo esqui, especialmente no resort olímpico de
+              Lillehammer.
+            </p>
+            <button>Reservar</button>
+          </div>
+        </div>
+        <div class="card-destiny">
+          <img
+            src="https://images.unsplash.com/photo-1520175480921-4edfa2983e0f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aXRhbGlhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+          <div class="description">
+            <h3>Veneza</h3>
+            <h6>Cidade na Itália</h6>
+            <p>
+              Veneza, a capital da região de Vêneto, no norte da Itália, é
+              formada por mais de 100 pequenas ilhas em uma lagoa no Mar
+              Adriático. A cidade não tem estradas, apenas canais (como a via
+              Grand Canal), repletos de palácios góticos e renascentistas. Na
+              praça central, Piazza San Marco, ficam a Basílica de São Marcos,
+              coberta de mosaicos bizantinos, e o campanário, com vista para os
+              telhados vermelhos da cidade
+            </p>
+            <button>Reservar</button>
+          </div>
+        </div>
+        <div class="card-destiny">
+          <img
+            src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cm9tYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+          <div class="description">
+            <h3>Roma</h3>
+            <h6>Capital da Itália</h6>
+            <p>
+              Roma, a capital da Itália, é uma cidade cosmopolita, enorme, com
+              quase 3.000 anos de arte, arquitetura e cultura influentes no
+              mundo todo e à mostra. Ruínas antigas como o Fórum e o Coliseu
+              evocam o poder do antigo Império Romano. A Cidade do Vaticano,
+              sede da Igreja Católica Romana, tem a Basílica de São Pedro e os
+              museus do Vaticano, que abrigam obras-primas como os afrescos da
+              Capela Sistina de Michelângelo
+            </p>
+            <button>Reservar</button>
+          </div>
+        </div>
+        <div class="card-destiny">
+          <img
+            src="https://images.unsplash.com/photo-1517935706615-2717063c2225?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Q2FuYWQlQzMlQTF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+          <div class="description">
+            <h3>Toronto</h3>
+            <h6>Cidade no Canadá</h6>
+            <p>
+              Toronto, a capital da província de Ontário, é uma grande cidade
+              canadense localizada ao longo da costa noroeste do Lago Ontário.
+              Ela é uma metrópole dinâmica com um centro de arranha-céus
+              imponentes, todos ofuscados pela famosa Torre CN. Toronto também
+              tem muitos espaços verdes, incluindo desde o oval Queen’s Park até
+              o High Park, com 400 acres de área, além de trilhas, instalações
+              esportivas e um jardim zoológico
+            </p>
+            <button>Reservar</button>
+          </div>
+        </div>
+        <div class="card-destiny">
+          <img
+            src="https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bG9uZHJlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+          <div class="description">
+            <h3>Londres</h3>
+            <h6>Captal inglaterra</h6>
+            <p>
+              Londres, capital da Inglaterra e do Reino Unido, é uma cidade do
+              século 21 com uma história que remonta à era romana. Seu centro
+              abriga as sedes imponentes do Parlamento, a famosa torre do
+              relógio do Big Ben e a Abadia de Westminster, local de coroação
+              dos monarcas britânicos. Do outro lado do rio Tâmisa, a roda
+              gigante London Eye tem vista panorâmica do complexo cultural da
+              margem sul e de toda a cidade
+            </p>
+            <button>Reservar</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <h3 class="title-section">Depoimentos</h3>
+
+    <section id="testimonials">
+      <div class="box-testimonials">
+        <div class="card-testimonial">
+          <img
+            src="https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvbWVtJTIwbmVncm98ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+            alt="Homem negro sorrindo"
+          />
+          <div class="description-testimonial">
+            <h3>Renato G. Gomes</h3>
+            <h6>Fotógrafo</h6>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat
+              non neque placeat perspiciatis! Doloremque adipisci veniam
+              blanditiis commodi maxime delectus sint, molestiae, voluptatum
+              temporibus provident iure, amet neque enim mollitia?
+            </p>
+          </div>
+        </div>
+
+        <div class="card-testimonial">
+          <img
+            src="https://images.unsplash.com/photo-1550480082-dd9c35032f45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bXVsaGVyJTIwbG9pcmF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+            alt="mulher loira sorrindo"
+          />
+          <div class="description-testimonial">
+            <h3>Rosana Tavares</h3>
+            <h6>Designer</h6>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat
+              non neque placeat perspiciatis! Doloremque adipisci veniam
+              blanditiis commodi maxime delectus sint, molestiae, voluptatum
+              temporibus provident iure, amet neque enim mollitia?
+            </p>
+          </div>
+        </div>
+
+        <div class="card-testimonial">
+          <img
+            src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bXVsaGVyJTIwcnVpdmF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+            alt="Mulher ruiva sorrindo"
+          />
+          <div class="description-testimonial">
+            <h3>Júlia Mello</h3>
+            <h6>Desenvolvedora Front-end</h6>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat
+              non neque placeat perspiciatis! Doloremque adipisci veniam
+              blanditiis commodi maxime delectus sint, molestiae, voluptatum
+              temporibus provident iure, amet neque enim mollitia?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <h3 class="title-section">Contato</h3>
+
+    <section id="contact">
+      <form>
+        <input type="text" placeholder="Seu nome" />
+        <input type="text" placeholder="Seu email" />
+        <textarea
+          placeholder=" Sua mensagem aqui"
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+        ></textarea>
+        <button>Enviar</button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="footer-clean">
+            <div class="container">
+                <div class="row justify-content-center">
+                        <h3>Serviços</h3>
+                        <ul>
+                            <li><a href="#">Hospedagem</a></li>
+                            <li><a href="#">Pacotes</a></li>
+                            <li><a href="#">Hotéis</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Quem Somos</h3>
+                        <ul>
+                            <li><a href="#">CodeTravel</a></li>
+                            <li><a href="#">Termos e Condições</a></li>
+                            <li><a href="#">Políticas de Qualidade</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Promoções</h3>
+                        <ul>
+                            <li><a href="#">Passagens com milhas</a></li>
+                            <li><a href="#">Passagem aérea</a></li>
+                            <li><a href="#">Benefícios</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 item social">
+                      <ion-icon name="logo-instagram"></ion-icon>
+                      <ion-icon name="logo-twitter"></ion-icon>
+                      <ion-icon name="logo-facebook"></ion-icon>
+                      <ion-icon name="mail-outline"></ion-icon>
+                      <ion-icon name="logo-whatsapp"></ion-icon>  
+                        <p class="copyright">CodeTravel© 2023</p>
+                    </div>
+                </div>
+           </div>
+      </div>
+  </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./js/App.js"></script>
+  </body>
+</html>

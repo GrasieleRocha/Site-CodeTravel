@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+:root{
+    --menu-bg-color:rgb(200, 247, 231);
+}
+
+.menu-hiden{
+    display: none;
+}
+
+span{
+    color: rgb(126, 126, 126);
+}
+
+.title-section{
+padding: 1.2rem;
+}
+
+
+#about .box-about .box-imgage .bg-color {
+    background: var(--menu-bg-color);
+    position: absolute;
+    width: 83%;
+    height: 11.78rem;
+    top: 50.3rem;
+    right: 20px;
+}
+
+#about .box-about .box-imgage img{
+   width: 90%;
+   position: relative;
+  }
+
+  @media (min-width: 375px) {
+    #about .box-about .box-imgage .bg-color {
+        background: var(--menu-bg-color);
+        position: absolute;
+        width: 83%;
+        height: 11.78rem;
+        top: 47.3rem;
+        right: 20px;
+    }
+  }
+
+  @media (min-width: 425px){
+    #home {
+        width: 100%;
+        padding-top: calc(0px + 3px);
+    }
+    #about .box-about .box-imgage .bg-color {
+        background: var(--menu-bg-color);
+        position: absolute;
+        width: 83%;
+        height: 14.78rem;
+        top: 47.5rem;
+        right: 26px;
+    }
+}
+  @media (min-width: 500px){
+    #home {
+        width: 100%;
+        height: 90vh;
+        padding-top: calc(50px + -19px);
+        margin-bottom: 60px;
+     }
+
+     #home .box-home{
+        width: 80%;
+        margin-inline: auto;
+        margin-top: 150px;
+        text-align: center;
+       }
+
+       #home .box-home h2 {
+        font-size: 1.9rem;
+        margin-bottom: 42px;
+     }
+    #about .box-about .box-imgage .bg-color {
+        background: var(--menu-bg-color);
+        position: absolute;
+        width: 83%;
+        height: 15.78rem;
+        top: 51.5rem;
+        right: 26px;
+    }
+}
+
+  @media (min-width: 700px){
+    #home {
+        width: 100%;
+        height: 19vh;
+        padding-top: calc(10px + 23px);
+    }
+    #about .box-about .box-imgage .bg-color {
+        background: var(--menu-bg-color);
+        position: absolute;
+        width: 83%;
+        height: 25.78rem;
+        top: 73.5rem;
+        right: 26px;
+    }
+  }
+ 
+
+
+
+/* https://images.unsplash.com/photo-1606852848696-e590f4bc02d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80 */
+
+
+/* Goiania
+https://images.unsplash.com/photo-1661518572691-f4044e3b9817?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGdvaWFuaWF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60
+
+Rio g s
+https://images.unsplash.com/photo-1629870994153-7094012e8de9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80
+
+sp
+https://images.unsplash.com/photo-1541686130653-ccf10c61f8a7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80
+
+rj
+
+https://images.unsplash.com/photo-1544989164-31dc3c645987?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80
+
+bh
+https://images.unsplash.com/photo-1551529489-5c97b567c760?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80
+
+recife
+https://images.unsplash.com/photo-1606862417230-03908d3118ad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80 */
