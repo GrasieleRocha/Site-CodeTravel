@@ -6,11 +6,11 @@ Project with learning purpose, under the guidance of Professor Rafael Simas, tra
 
 ## Layout mobile
 
-![mobile](./img/page%20mobile%20.jpg)
+![mobile](./img/mobile.jpg)
 
 ## Layout web
 
-![web](./img/page%20web.jpg)
+![web](./img/desktop.jpg)
 
 ## Tecnologies used
 
