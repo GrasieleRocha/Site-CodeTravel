@@ -10,7 +10,7 @@ Project with learning purpose, under the guidance of Professor Rafael Simas, tra
 
 ## Layout web
 
-![web](./img/desktop.jpg)
+![web](./img/Desktop.jpg)
 
 ## Tecnologies used
 
